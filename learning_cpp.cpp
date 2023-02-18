@@ -7,7 +7,8 @@ int main(){
     // int main() is a function that returns some int number in the end of the execution of the program, if the
     // value returned is 0. than this means that there is no error in the program.
     cout << endl;
-
+    
+    double arr[]{1, 2, 3, 3.4, 4.3};
     int num {}; // This is where variables are stored.
     cout << "Type your favorite number between 1 and 10: ";
     cin >> num;
@@ -38,6 +39,7 @@ int main(){
     std::cout << "size of float: " << sizeof(float) << " bytes" << std::endl;
     std::cout << "size of double: " << sizeof(double) << " bytes" << std::endl;
     std::cout << "size of long double: " << sizeof(long double) << " bytes" << std::endl;
+    std::cout << "size of an array with double(8 bytes each) values: " << sizeof(arr) << " bytes" << std::endl;
     std::cout << std::endl;
     // Minimum value for each type of variable
     std::cout << "minimun value of char: " << CHAR_MIN << std::endl;
