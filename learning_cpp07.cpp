@@ -12,7 +12,7 @@ int rand_num()
     int max{4};
     const int count{7};
 
-    for (size_t i{}; i < count; ++i)
+    for (int i{}; i < count; ++i)
     {
         num = (rand() % max) + min;
         std::cout << "Random numbers: " << num << std::endl;
@@ -26,15 +26,15 @@ double area_circle(double radius = 4.5)
     return (pi * pow(radius, 2));
 }
 
-void print_arr(int arr[], size_t size)
+void print_arr(int arr[], int size)
 {
-    for (size_t i{}; i < size; ++i)
+    for (int i{}; i < size; ++i)
     {
         std::cout << arr[i] << " ";
     }
 }
 
-unsigned long long factorial(unsigned long long n){
+size_t factorial(unsigned n){
     if (n == 0){
         return 1;
     }
