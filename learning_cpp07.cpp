@@ -69,7 +69,6 @@ int main()
     int num1{5}, num2{10};
     std::cout << num1 << " and " << num2 << std::endl;
     swapp(num1, num2);
-    std::cout << num1 << " and " << num2 << std::endl;
     std::cout << std::endl;
 
     std::cout << factorial(5);
