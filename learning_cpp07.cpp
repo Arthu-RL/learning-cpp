@@ -42,7 +42,7 @@ size_t factorial(unsigned n){
 }
 
 
-// The address-of operator (&) can access the memory of the parameters, which means
+// The address-of operator (&) can access the allocated memory of the parameters, which means
 // the parameter will not be a copy of a given parameter
 void swapp(int &a, int &b){
     int temp{a};
