@@ -22,7 +22,7 @@ int *create_array(int size, int value = 0)
     return storage;
 }
 
-// A function that displays the values of a pointer array.
+// A function that displays the values of a pointer, which is an array.
 void display(const int *array, size_t size)
 {
     for (size_t i{0}; i < size; ++i)
