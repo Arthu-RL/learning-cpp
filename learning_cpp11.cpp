@@ -8,6 +8,7 @@ using std::endl;
 using std::string;
 using std::vector;
 
+// A function that returns a pointer and creates a array with a amount of equal values.
 int *create_array(int size, int value = 0)
 {
     int *storage{nullptr};
@@ -21,6 +22,7 @@ int *create_array(int size, int value = 0)
     return storage;
 }
 
+// A function that displays the values of a pointer array.
 void display(const int *array, size_t size)
 {
     for (size_t i{0}; i < size; ++i)
