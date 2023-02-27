@@ -79,7 +79,7 @@ int main()
     ptr = nullptr;
 
     // Allocating a new type class Player inside the pointer
-    // Note that the memory address of "ptr" is not changing, because the type Player is the same in this pointer, as declared above "Player *ptr{nullptr};".
+    // Note that the memory address of "ptr" is not changing, this happens because the type class Player is the same in this pointer, as declared above "Player *ptr{nullptr};".
     ptr = new Player("Hunter", 40, 1000);
 
     ptr->get_name();
