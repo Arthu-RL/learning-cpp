@@ -10,8 +10,6 @@ public:
         std::cout << "No args constructor called" << std::endl;
     }
 
-    Player(std::string _name) : name(_name) {}
-
     Player(std::string _name, int _health, int _xp) : name(_name), health(_health), xp(_xp)
     {
         std::cout << "Three args constructor called" << std::endl;
