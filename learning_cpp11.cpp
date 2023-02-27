@@ -25,6 +25,7 @@ int *create_array(int size, int value = 0)
 // A function that displays the values of a pointer, which is an array.
 void display(const int *array, size_t size)
 {
+    cout << "Allocated value as an array: " << endl;
     for (size_t i{0}; i < size; ++i)
     {
         cout << array[i] << " ";
@@ -54,7 +55,7 @@ int main()
     arr = nullptr;
 
     cout << "\n";
-    cout << "Deallocated pointer: " << arr << endl;
+    cout << "Deallocated pointer: " << &arr << "  " << "Value: " << arr << endl;
     cout << "\n---------------------------------------" << endl;
 
     vector<string> vec{"Aluneth", "Cronan", "Aleria"};
