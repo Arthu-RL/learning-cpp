@@ -62,6 +62,8 @@ int main()
     // Studying more pointers
     // Allocating pointer of type class
     Player *ptr{nullptr};
+    
+    // Dynamic allocation
     ptr = new Player("Garona", 60, 800);
 
     ptr->get_name();
