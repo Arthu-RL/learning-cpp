@@ -78,7 +78,8 @@ int main()
     delete ptr;
     ptr = nullptr;
 
-    // Allocating a new type class Player inside the pointer
+    // Allocating a new type class Player inside the pointer.
+    // Note that the you cannot change the type of the pointer, because the type "Player" was already declared above "Player *ptr{nullptr};".
     ptr = new Player("Hunter", 40, 1000);
 
     ptr->get_name();
