@@ -14,7 +14,7 @@ int *create_array(int size, int value = 0)
     int *storage{nullptr};
     storage = new int{size};
 
-    for (int i{0}; i < size; ++i)
+    for (int i{0}; i < size; i++)
     {
         *(storage + i) = value;
     }
@@ -26,7 +26,7 @@ int *create_array(int size, int value = 0)
 void display(const int *array, size_t size)
 {
     cout << "Allocated value as an array: " << endl;
-    for (size_t i{0}; i < size; ++i)
+    for (size_t i{0}; i < size; i++)
     {
         cout << array[i] << " ";
     }
