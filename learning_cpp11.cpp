@@ -8,7 +8,7 @@ using std::endl;
 using std::string;
 using std::vector;
 
-// A function that returns a pointer and creates a array with a amount of equal values.
+// A function that returns a pointer that is pointing to an array of int numbers.
 int *create_array(int size, int value = 0)
 {
     int *storage{nullptr};
