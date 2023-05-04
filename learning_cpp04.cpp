@@ -3,9 +3,6 @@ using namespace std;
 
 int main()
 {
-    // char selection{};
-    // cout << "Select your choice between 0 and 4: ";
-    // cin >> selection;
     enum color
     {
         red = 1,
@@ -14,7 +11,6 @@ int main()
     };
 
     color screen_color{blue};
-    // cout << "Choose your color(between 0 and 4): ";
 
     switch (screen_color)
     {
