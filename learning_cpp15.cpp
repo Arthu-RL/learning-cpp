@@ -12,9 +12,6 @@ public:
 
     // Constructor
     Player(string _name, unsigned _health, unsigned _exp) : name(_name), health(_health), exp(_exp) {}
-    string getname() { return name; }
-    unsigned gethealth() { return health; }
-    unsigned getexp() { return exp; }
 
     // attributes
     string name;
@@ -22,6 +19,11 @@ public:
     unsigned exp{};
 
     // methods
+    string getname() { return name; }
+    unsigned gethealth() { return health; }
+    unsigned getexp() { return exp; }
+
+
     void text(string text)
     {
         cout << text << endl;
@@ -33,7 +35,7 @@ public:
             cout << "You are dead!" << endl;
             return true;
         }
-        cout << "You alive!" << endl;
+        cout << "You're alive!" << endl;
         return false;
     }
 };
@@ -91,3 +93,4 @@ int main()
     cout << endl;
     return 0;
 }
+
