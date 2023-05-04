@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // enum can be used for mapping.
     enum color
     {
         red = 1,
